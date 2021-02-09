@@ -1,0 +1,17 @@
+id, value
+pathPngs,data/new-pngs
+pathH5s,data/allh5s-new
+pathXlsNoPolyp,data/TCIAnopolypfound.xls
+pathXls10Polyp,data/TCIA10mmpolyps.xls
+pathXls69Polyp,data/TCIA6to9mmpolyps.xls
+batchSize,4
+pathPosFtrs,data/color/pos
+pathNegFtrs,data/color/neg
+pathWeights,data/color/pos-neg1/train-ckpts/cp-0020.ckpt/variables/variables/variables/variables
+pathResumeTrainFromCkpt,data/color/pos-neg1/train-ckpts/checkpoint_path/cp-0020.ckpt/variables/variables
+pathSaveModel,models
+pathSaveImages,images
+pathCkptsSave,data/color/pos-neg1/train-ckpts/cp-{epoch:04d}.ckpt
+dcmFolder,data/CT COLONOGRAPHY
+doFeatureExtraction,False
+doClassification,True
